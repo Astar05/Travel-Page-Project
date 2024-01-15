@@ -66,4 +66,17 @@ button {
   header h3 {
     font-size: 12px;
   }
+
+  button {
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 16px;
+    margin-top: 32px;
+    display: inline-block;
+  }
 }
