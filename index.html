@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2066865cda.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Tokyo Travels</title>
   </head>
   <body>
     <header>
+      <div class="time-temp">
+        <p>Tokyo, Japan</p>
+        <div class="time" id="time"><i class="fa-regular fa-clock"></i></div>
+        <div class="temperature" id="temperature">
+          <i class="fa-solid fa-temperature-three-quarters"></i>
+        </div>
+      </div>
       <h3>.TRAVEL.</h3>
       <h1>Tokyo Travels</h1>
       <h2>Capital City of Japan 🗾</h2>
@@ -20,5 +34,6 @@
       </a>
       on GitHub
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
