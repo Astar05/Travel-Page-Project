@@ -16,6 +16,57 @@ header {
   padding: 200px;
 }
 
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9))
+    url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.9;
+  margin-right: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 header h1 {
   font-weight: 700;
   font-size: 96px;
