@@ -60,6 +60,10 @@ img {
   aspect-ratio: 1 / 1;
 }
 
+.embed-vids {
+  max-width: 100%;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -271,5 +275,18 @@ section.secondary {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+
+  .embed-vids {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .img-responsive {
+    display: none;
+  }
+
+  .vid-tokyo {
+    display: none;
   }
 }
