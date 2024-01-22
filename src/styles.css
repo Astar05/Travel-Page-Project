@@ -27,7 +27,7 @@ footer {
     url("../images/tokyo-crossing.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 .grid {
@@ -38,7 +38,6 @@ footer {
 img {
   overflow-clip-margin: content-box;
   overflow: clip;
-  border-radius: 25px;
 }
 
 .grid-2-columns {
@@ -314,5 +313,13 @@ section.secondary {
   .time {
     display: inline-block;
     padding-right: 10px;
+  }
+
+  .card-footer {
+    display: none;
+  }
+
+  li {
+    display: inline-block;
   }
 }
