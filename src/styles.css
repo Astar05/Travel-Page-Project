@@ -39,11 +39,6 @@ img {
   overflow: clip;
 }
 
-.img-responsive {
-  max-width: 100%;
-  display: block;
-}
-
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -58,6 +53,11 @@ img {
 
 .text-center {
   text-align: center;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 section {
@@ -187,7 +187,8 @@ button {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 
 section.secondary {
@@ -197,6 +198,10 @@ section.secondary {
 .card {
   background: white;
   margin: 30px 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -258,5 +263,13 @@ section.secondary {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
